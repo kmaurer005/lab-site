@@ -1,0 +1,14 @@
+<h1>IPv6 Addressing Lab</h1>
+
+<h2>Goal</h2>
+<p>Configure IPv6 addressing using EUI-64 and verify connectivity.</p>
+
+<h2>Commands</h2>
+<pre>
+interface g0/0
+ipv6 address 2001:db8:1:1::/64 eui-64
+show ipv6 interface brief
+</pre>
+
+<h2>Verification</h2>
+<p>Confirmed global unicast address and successful ping between nodes.</p>
